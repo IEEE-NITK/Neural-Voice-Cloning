@@ -1,0 +1,101 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+
+<br><br><br><br>
+
+<div class="container animated bounce">
+
+<div class="row">
+
+  <div class="col-sm-8">
+
+
+  <div class="row">
+
+    
+      <div class="dot">
+
+          <button class="mbutton  btn btn-primary" (click)="get_products(1)">Record1</button>
+
+      </div>
+
+      <div class="dot" style="margin-left:20em">
+
+          <button class="mbutton btn btn-primary" (click)="get_products(2)">Record2</button>
+
+        </div>
+  
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-sm-6 text" style="padding-left:1em;">
+        apple banana orange grapes peanut<br>
+      <button id="button1" [ngStyle]="{'background-color':  color1}" >{{text1}}</button>
+    </div>
+    <div class="col-sm-6 text" style="padding-left:1em">
+        apple banana orange grapes peanut<br>
+        <button id="button1" [ngStyle]="{'background-color':  color2}"   >{{text2}}</button>
+
+      </div>
+  </div>
+
+
+
+<br><br><br><br><br>
+  <div class="row">
+
+      <div class="dot">
+
+          <button class="mbutton btn btn-primary " (click)="get_products(3)">Record3</button>
+
+        </div>
+
+        <div class="dot" style="margin-left:20em">
+
+            <button class="mbutton btn btn-primary " (click)="get_products(4)">Record4</button>
+
+          </div>
+    
+
+  </div>
+ 
+  <div class="row">
+      <div class="col-sm-6 text " style="padding-left:1em;" >
+          apple banana orange grapes peanut<br>
+        <button id="button1" [ngStyle]="{'background-color':  color3}"   >{{text3}}</button>
+
+      </div>
+      <div class="col-sm-6 text">
+          apple banana orange grapes peanut<br>
+          <button id="button1" [ngStyle]="{'background-color':  color4}"   >{{text4}}</button>
+
+        </div>
+    </div>
+    
+    <br>
+    <button id="button1" style="margin-left:30em ; background: blue;color: white"   >Send Voice Samples</button>
+
+  </div>
+
+<div class="col-sm-4 text sidebar">
+
+  <div class="sidebar">
+    Neural Voice Cloning
+    <br>
+    1. step 1
+    <br>
+    2. step 2
+</div>
+
+</div>
+
+
+  </div>
+
+
+<router-outlet></router-outlet>

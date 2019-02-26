@@ -1,0 +1,29 @@
+.dot {
+    height: 20em;
+    width: 20em;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5em;
+  }     
+  .mbutton{
+      margin-top: 9em;
+      margin-left: 7em;
+      text-align: center;
+  }
+  .rightText{
+      margin-top: 30em;
+      margin-left: 1em;
+  }
+
+  .text{
+      font-size: 1.5em;
+      font-weight: bold;
+  }
+  .sidebar{
+      background-color: brown;
+      padding: 0px;
+      width: 100%;
+      
+      
+  }

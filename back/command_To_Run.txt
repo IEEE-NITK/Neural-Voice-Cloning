@@ -1,0 +1,1 @@
+ python3 synthesis.py --hparams=builder=deepvoice3_multispeaker,preset=deepvoice3_vctk --speaker_id=0 20171222_deepvoice3_vctk108_checkpoint_step000300000.pth   sentences.txt   output_dir

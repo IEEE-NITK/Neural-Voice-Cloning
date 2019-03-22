@@ -7,6 +7,13 @@ Neural Voice Cloning with a few voice samples, using the speaker adaptation meth
 * Prajwal S Belagavi
 * Rosa Anil George
 
+**Instructions to execute the model.**
+1. Clone the deep voice 3 repository.
+2. Download the pre-trained model from https://www.dropbox.com/s/uzmtzgcedyu531k/20171222_deepvoice3_vctk108_checkpoint_step000300000.pth?dl=0 and save it in the deep voice 3 reposiroty.
+3. Do 'git checkout 0421749'
+4. The sentences to be converted to speech must be entered in the sentences.txt file.
+5. The input audio is to be stored in the audio folder as 'in.wav'. This can be modified and if modified change the synthesis.py file accordingly.
+
 # Acknowledgements
 
 - The implementation of Multi-Speaker Generative model was inspired from https://github.com/r9y9/deepvoice3_pytorch

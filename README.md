@@ -6,3 +6,10 @@ Neural Voice Cloning with a few voice samples, using the speaker adaptation meth
 * Govardhan CD 
 * Prajwal S Belagavi
 * Rosa Anil George
+
+**Acknowledgements**
+
+
+    The implementation of Multi-Speaker Generative model was inspired from https://github.com/r9y9/deepvoice3_pytorch
+
+    Neural Voice Cloning with Few Samples

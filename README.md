@@ -11,6 +11,7 @@ Neural Voice Cloning with a few voice samples, using the speaker adaptation meth
 1. Clone the deep voice 3 repository.
 2. Download the pre-trained model from https://www.dropbox.com/s/uzmtzgcedyu531k/20171222_deepvoice3_vctk108_checkpoint_step000300000.pth?dl=0 and save it in the deep voice 3 reposiroty.
 3. Do 'git checkout 0421749'
+4. To the cloned repo, add the folders and files that are present in the folder 'back'. Replace the synthesis.py in deep voice 3 file with the one in this repository.
 4. The sentences to be converted to speech must be entered in the sentences.txt file.
 5. The input audio is to be stored in the audio folder as 'in.wav'. This can be modified and if modified change the synthesis.py file accordingly.
 

@@ -3,7 +3,7 @@ Neural Voice Cloning with a few voice samples, using the speaker adaptation meth
 
 **Team Members:**
 * Adil Ashique
-* Govardhan CD 
+* Govardhan GD 
 * Prajwal S Belagavi
 * Rosa Anil George
 
